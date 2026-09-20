@@ -37,7 +37,8 @@
             "idle_inhibitor",
             "clock",
             "custom/gamemode",
-            "custom/hyprsunset"
+            "custom/hyprsunset",
+            "mpris"
         ],
         "orientation": "inherit"
     },
@@ -67,6 +68,7 @@
     },
     "group/pill#right3": {
         "modules": [
+            "custom/hyde-menu",
             "battery",
             "custom/wallchange",
             "custom/theme",
